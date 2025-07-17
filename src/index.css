@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+html, body {
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.highlight1 {
+    background: linear-gradient(270deg,
+  #c65e62,
+  #b64829,
+  #dbc60a,
+  #ba4d9b,
+  #0baad2,
+  #84fab0,
+  #8fd3f4,
+  #a1c4fd,
+  #c2e9fb,
+  #d4fc79,
+  #ff9a9e
+);
+
+}
+
+.highlight2 {
+    background: linear-gradient(270deg,
+  #ff0000,
+  #ff7f00,
+  #ffff00,
+  #7fff00,
+  #00ff00,
+  #00ff7f,
+  #00ffff,
+  #007fff,
+  #0000ff,
+  #8b00ff,
+  #ff0000
+);
+
+}
+
+.highlight3 {
+    background: linear-gradient(270deg,
+  #ffd1dc,
+  #bb1e0c,
+  #dee90f,
+  #b20fcb,
+  #095732,
+  #d1c4e9,
+  #6f0789,
+  #b3e5fc,
+  #b2ebf2,
+  #b2dfdb,
+  #ffd1dc
+);
+
+}
+
+.gradient-box {
+  background: linear-gradient(to right, transparent, rgb(149, 149, 185), #0a090a, #e8b5cf, transparent);
+  background-size: 400% 400%;
+  animation: animate-background 3s linear infinite;
+}
+
+.headline span {
+    background-size: 200% 100%;
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 3s linear infinite;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
