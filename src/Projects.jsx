@@ -8,7 +8,7 @@ function Projects() {
     const projects = [
         {
             id: 1,
-            img: 'public/GIFS/Quiz.gif',
+            img: 'GIFS/Quiz.gif',
             title: 'Quiz App',
             description: "An application made for those who wants test their general knowledge, user wins or loses the game based on how well he/she performed and if they want then they can play again",
             tech: [
@@ -19,7 +19,7 @@ function Projects() {
         },
         {
             id: 2,
-            img: 'public/GIFS/newsApp.gif',
+            img: 'GIFS/newsApp.gif',
             title: 'NewsnCoffee',
             description: 'An application made for those who loves to know what is happening around specially when it comes to morning coffee',
             tech: [
@@ -31,7 +31,7 @@ function Projects() {
         },
         {
             id: 3,
-            img: 'public/GIFS/Blog.gif',
+            img: 'GIFS/Blog.gif',
             title: 'Blog App',
             description: "Users can Create/Update/Read/Delete the posts once they login to the application, this application lets user pen down what they want into it",
             tech: [
@@ -42,7 +42,7 @@ function Projects() {
         },
         {
             id: 4,
-            img: 'public/GIFS/WhatsApp Video 2025-07-17 at 00.45.29_9c45cba5.gif',
+            img: 'GIFS/WhatsApp Video 2025-07-17 at 00.45.29_9c45cba5.gif',
             title: 'Currency Convertor',
             description: "Users can now get to know that how much their currency is doing well, by comparing their currency values with other currencies",
             tech: [
@@ -53,7 +53,7 @@ function Projects() {
         },
         {
             id: 5,
-            img: 'public/GIFS/Weather2.gif',
+            img: 'GIFS/Weather2.gif',
             title: 'Weather App',
             description: "Users can get to know about the weather conditions around the world, added animations to make users make feel great about it",
             tech: [
@@ -63,7 +63,7 @@ function Projects() {
         },
         {
             id: 6,
-            img: 'public/GIFS/Todo.gif',
+            img: 'GIFS/Todo.gif',
             title: 'TODO List',
             description: "Users can add their TODOS in this application and can remove or disable their tasks once after the completion",
             tech: [
