@@ -106,7 +106,7 @@ function Skill() {
                         <div className='relative group flex flex-col  items-center p-5 gap-4 hover:gap-2 hover:duration-300 rounded-2xl bg-gray-900 backdrop-opacity-20 hover:scale-105 transition-all duration-500' key={index}>
                             <div className='absolute gradient-box inset-0 opacity-50 md:opacity-0 md:group-hover:opacity-50  bg-gradient-to-r from-black via-white to-green-500 rounded-2xl'></div>
                             <img src={skill.image} alt="" className='h-12 group-hover:rotate-12 duration-300' />
-                            <p>{skill.skill}</p>
+                            <p className='text-center'>{skill.skill}</p>
                         </div>
                     )
 

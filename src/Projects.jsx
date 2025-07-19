@@ -15,7 +15,8 @@ function Projects() {
                 { name: 'HTML', background: 'linear-gradient(to bottom, #e34c26, #ef652a)' },
                 { name: 'CSS', background: 'linear-gradient(to bottom, #264de4, #2965f1)' },
                 { name: 'JS', background: '#f7df1e' }
-            ]
+            ],
+            link:'https://github.com/avnish404/Quiz-App'
         },
         {
             id: 2,
@@ -27,7 +28,9 @@ function Projects() {
                 { name: 'CSS', background: 'linear-gradient(to bottom, #264de4, #2965f1)' },
                 { name: 'JS', background: '#f7df1e' },
                 { name: 'Reactjs', background: '#61dafb' }
-            ]
+            ],
+            link:'https://github.com/avnish404/NewsApp-React'
+
         },
         {
             id: 3,
@@ -38,7 +41,8 @@ function Projects() {
                 { name: 'Reactjs', background: '#61dafb' },
                 { name: 'Tailwind css', background: 'linear-gradient(to right, #38bdf8, #0ea5e9)' },
                 { name: 'Appwrite', background: '#F02E65' }
-            ]
+            ],
+            link:'https://github.com/avnish404/BlogApp'
         },
         {
             id: 4,
@@ -49,7 +53,8 @@ function Projects() {
                 { name: 'HTML', background: 'linear-gradient(to bottom, #e34c26, #ef652a)' },
                 { name: 'CSS', background: 'linear-gradient(to bottom, #264de4, #2965f1)' },
                 { name: 'JS', background: '#f7df1e' }
-            ]
+            ],
+            link:'https://github.com/avnish404/Currency-Convertor-JS'
         },
         {
             id: 5,
@@ -59,7 +64,8 @@ function Projects() {
             tech: [
                 { name: 'Reactjs', background: '#61dafb' },
                 { name: 'Tailwind css', background: 'linear-gradient(to right, #38bdf8, #0ea5e9)' }
-            ]
+            ],
+            link:'https://github.com/avnish404/WeatherApp'
         },
         {
             id: 6,
@@ -70,7 +76,8 @@ function Projects() {
                 { name: 'Reactjs', background: '#61dafb' },
                 { name: 'Tailwind css', background: 'linear-gradient(to right, #38bdf8, #0ea5e9)' },
                 { name: 'Redux toolkit', background: '#764ABC' }
-            ]
+            ],
+            link:'https://github.com/avnish404/ReduxTODO'
         }
     ];
 
@@ -170,10 +177,11 @@ function Projects() {
             <div className='flex flex-col items-center justify-center w-full'>
                 <div className='flex flex-col w-full max-w-7xl gap-8 px-4'>
                     {projects.map((project, index) => (
-                        <div
+                        <a
                             key={project.id}
                             ref={el => CardRef.current[index] = el}
                             className='relative group flex flex-col md:flex-row items-center justify-center w-full max-w-5xl mx-auto md:border-2 border-b-2 border-white rounded-2xl shadow-md shadow-white p-8 gap-6 min-h-[250px] cursor-pointer transition-all duration-500 ease-in-out hover:shadow-xl hover:shadow-white/50'
+                            href={project.link} target='_blank'
                         >
                             <div className='absolute gradient-box inset-0 opacity-0 group-hover:opacity-50  bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl'></div>
                             <div className='flex-shrink-0 z-10'>
@@ -198,7 +206,7 @@ function Projects() {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>

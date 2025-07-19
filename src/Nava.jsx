@@ -46,7 +46,7 @@ function Nava() {
     <div className="bg-black text-white px-4 py-3">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-5xl font-bold font-serif"><img src="https://cdn-icons-png.flaticon.com/128/9968/9968834.png" alt="" className='h-10 w-10 invert'/></h1>
+        <h1 className="text-5xl font-bold font-serif"><img src="Icons/bag.png" alt="" className='h-10 w-10 invert'/></h1>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-8 items-center">
